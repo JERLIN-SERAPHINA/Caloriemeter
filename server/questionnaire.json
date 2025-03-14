@@ -1,0 +1,1028 @@
+[
+    {
+        "questionaireId": 1,
+        "questionaireName": "Questionaire for Toddlers",
+        "questions": [
+            {
+                "question": "Name of the child",
+                "type": "text"
+            },
+            {
+                "question": "Age of the child (in months)",
+                "type": "number"
+            },
+            {
+                "question": "Gender of the child",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Male",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Female",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Other",
+                        "type": "radio|text"
+                    }
+                ]
+            },
+            {
+                "question": "Height (in cms)",
+                "type": "number"
+            },
+            {
+                "question": "Weight (in kgs)",
+                "type": "number"
+            },
+            {
+                "question": "Birth weight of child (in kgs)",
+                "type": "number"
+            },
+            {
+                "question": "Baby delivered after full term or preterm",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Full term",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Preterm",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Mode of delivery",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Vaginal delivery",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "C - Section",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Others",
+                        "type": "radio|text"
+                    }
+                ]
+            },
+            {
+                "question": "Did the baby cry soon after delivery?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Any complications post natal?",
+                "type": "text"
+            },
+            {
+                "question": "What vaccinations done ?",
+                "type": "text"
+            },
+            {
+                "question": "Let's understand baby's developmental mile-stone:",
+                "type": "group",
+                "questions": [
+                    {
+                        "question": "responded to voice/ call in .........months",
+                        "type": "number"
+                    },
+                    {
+                        "question": "did eye contact in ........months",
+                        "type": "number"
+                    },
+                    {
+                        "question": "spoke the first word ......months",
+                        "type": "number"
+                    },
+                    {
+                        "question": "put his finger in his mouth  .....months",
+                        "type": "number"
+                    },
+                    {
+                        "question": "took the first step .....months",
+                        "type": "number"
+                    },
+                    {
+                        "question": "sleeping time (last four weeks) Mention time:",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "question": "Let's understand the bowel movement:",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "poops twice daily without any difficulty",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "poops once a day without any difficulty",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "poops once a day but has difficulty like hard stools, constipation, discomfort.",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "poops after every solid feed",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "has constipation more than twice a week",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "has constipation while/after travel",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "has constipation after any medication",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "Let's understand the baby's sleep",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "sleeps undisturbed and on the same time mostly",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "difficult to fall asleep but sleeps on the same time",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "have disturbed sleep",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "cries in the middle of the sleep but goes back to sleep after pacifing",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "sleeping time is progressively reduced and playful",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "cranky before sleeping",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "Let's understand the eating habit",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "shows excitement when seeing the food",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "happy to be fed by someone talking/story telling",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "self feeds whenever hungry",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "refuses to eat unless distracted",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "How is the skin of the baby?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "soft and smooth",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "dry and rashes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "sensitive skin",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Vision health of the baby",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "looks normal and looks directly in the eyes of others",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "squints sometimes while looking at long distance",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "does not squint but looks only long distance",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Keeps looking far and near, makes eye contact and looks keenly at brighter  colors and moving objects.",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "Does the baby have any food preferences?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ],
+                "followUpQuestion": {
+                    "question": "If yes what is the child's preference?",
+                    "type": "text",
+                    "triggerAnswer": "Yes"
+                }
+            },
+            {
+                "question": "Does the baby have any food allergy?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ],
+                "followUpQuestion": {
+                    "question": "If yes what food causes allergy? what are the allergic reactions?",
+                    "type": "text",
+                    "triggerAnswer": "Yes"
+                }
+            },
+            {
+                "question": "Does the child refuse to eat any food?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ],
+                "followUpQuestion": {
+                    "question": "if yes please mention the food items.",
+                    "type": "text",
+                    "triggerAnswer": "Yes"
+                }
+            },
+            {
+                "question": "Do the child have frequent infection?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ],
+                "followUpQuestion": {
+                    "question": "if yes how frequently antibiotics are given?",
+                    "type": "text",
+                    "triggerAnswer": "Yes"
+                }
+            },
+            {
+                "question": "As a parent do you want to mention about any specific concern about the baby?",
+                "type": "text"
+            },
+            {
+                "question": "Any specific family history about health challenges or additional abilities? would you want to focus on anything?",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "questionaireId": 2,
+        "questionaireName": "Assessment of Nutritional deficiency in Adolescent Females (13yrs - 19yrs)",
+        "questions": [
+            {
+                "question": "Name of the child",
+                "type": "text"
+            },
+            {
+                "question": "Age of the child",
+                "type": "number"
+            },
+            {
+                "question": "Gender - M / F",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Male",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Female",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Height",
+                "type": "number"
+            },
+            {
+                "question": "Weight",
+                "type": "number"
+            },
+            {
+                "question": "Have you attained puberty?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Your age when puberty happened -",
+                "type": "number"
+            },
+            {
+                "question": "Are your monthly periods regular?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you experience pain or discomfort during your periods?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have constipation / stomach related issues?",
+                "type": "radio|text",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio|text"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "If you have constipation, how frequently do you get this problem?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Always",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "More than once",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Once or twice a week",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have loose stools?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "If yes, how frequently do you have loose motion?",
+                "type": "radio|text",
+                "options": [
+                    {
+                        "option": "Always",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "More than twice a week",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Only when I eat out",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Other reasons",
+                        "type": "radio|text"
+                    }
+                ]
+            },
+            {
+                "question": "How many meals do you have in a day?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Three major meals",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Two major meals",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Four/more small meal",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Varies everyday",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Which meal are you very hungry?",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "Breakfast",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Lunch",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Evening",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Dinner",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Post dinner / late night",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "How many hours of average sleep do you have in a day?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "7 to 8 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "5 to 7 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "More than 9 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Less than 4 hours",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "How of screen time do you do everyday?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Less than 1 hour",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "More than 3 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "6 to 8 hours",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have hair loss, hair thinning, scanty hair?",
+                "type": "radio|text",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have excess hair growth in body/facial hair/chin?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have acne issues?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you take part in sports / regular exercise / pilates / Yoga?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Are you pursuing any competitive sport? Example: tennis. Chess,\n       Cricket, athletics",
+                "type": "text"
+            },
+            {
+                "question": "Are you pursuing anything related to Arts, like....",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "Dance",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Theatre",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Music",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have any hobbies, if yes, pls mention",
+                "type": "text"
+            },
+            {
+                "question": "What are the vaccines you have taken till date?",
+                "type": "text"
+            },
+            {
+                "question": "In the past 6 months, how many times have you used anti-biotics?",
+                "type": "radio|text",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio|text"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "What is your health goal you want to achieve now?",
+                "type": "text"
+            },
+            {
+                "question": "What are the steps you have taken to overcome your health issues? Pls mention",
+                "type": "text"
+            },
+            {
+                "question": "I want a customised Diet plan with",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "Veg",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Non-Veg",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Both",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "If there is any information you may want to share, pls explain",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "questionaireId": 3,
+        "questionaireName": "Initial Assessment Form - Teenagers (Boys)",
+        "questions": [
+            {
+                "question": "Name:",
+                "type": "text"
+            },
+            {
+                "question": "Age:",
+                "type": "number"
+            },
+            {
+                "question": "Height in Cms:",
+                "type": "number"
+            },
+            {
+                "question": "Weight in Kgs:",
+                "type": "number"
+            },
+            {
+                "question": "What vaccines have you taken so far? Please list the vaccines you have received.",
+                "type": "text"
+            },
+            {
+                "question": "Let's understand your poop: Do you have constipation?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Always",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Sometimes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Never",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you have loose stools?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Always",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Sometimes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Never",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Mostly your stools are",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "soft and well formed",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "hard",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "not well formed but soft",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "loose stools",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "How many times you pass stools ?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Once in a day",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "twice in a day",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "once in two days",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "How much is your water consumption per day?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "1l",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "2l",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "3 to 4l",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "less than 1l",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "what is your food pattern?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Breakfast, Lunch, Dinner with snacking in the evening  and late night post dinner if i am awake",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Breakfast, Lunch, Dinner with snacking in the evening.",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Breakfast, Lunch Dinner and snacking rarely once a day",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Breakfast, Lunch, dinner with no snacking at all mostly",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Any other : please mention",
+                        "type": "radio|text"
+                    }
+                ]
+            },
+            {
+                "question": "How many fruits in a day?",
+                "type": "number"
+            },
+            {
+                "question": "Does all your meal have vegetables 2 to 3 servings? that is at least 20% in your plate.",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "Yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "No",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Rarely",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "Never",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "2 to 3 meals a week",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Which meal are you  very hungry?",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option": "Breakfast",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Lunch",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Dinner",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "Evening snack time",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "post dinner",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "all meals",
+                        "type": "checkbox"
+                    },
+                    {
+                        "option": "none",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "question": "How much do you sleep every day?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "less than 4 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "5 to 6 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "6 to 8 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "9 hours",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "How much time on gadgets in a day?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "1 to 2 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "3 to 4 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "more than 5 hours",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "less than one hour",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "only at bed time",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "only on week ends / holidays",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you play a sport ? If yes what sport?",
+                "type": "text"
+            },
+            {
+                "question": "If yes, are you getting coached and trained for it?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option": "yes",
+                        "type": "radio"
+                    },
+                    {
+                        "option": "no",
+                        "type": "radio"
+                    }
+                ]
+            },
+            {
+                "question": "Do you exercise regularly? If yes how many hours in day/week?",
+                "type": "text"
+            },
+            {
+                "question": "Are you on any nutritional supplements? if yes, please mention",
+                "type": "text"
+            },
+            {
+                "question": "Do yo have any health challenge that you would like to overcome?",
+                "type": "text"
+            },
+            {
+                "question": "What is your health goal?",
+                "type": "text"
+            }
+        ]
+    }
+]

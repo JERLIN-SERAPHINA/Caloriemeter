@@ -1,0 +1,102 @@
+.questionnaire-list-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  a[href$="create"] {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    
+    &:hover {
+      background-color: #218838;
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    
+    li {
+      margin-bottom: 15px;
+      background-color: #f9f9f9;
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .questionnaire-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        
+        .questionnaire-name {
+          font-size: 18px;
+          font-weight: 500;
+        }
+        
+        .questionnaire-actions {
+          display: flex;
+          gap: 10px;
+          
+          .btn {
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            
+            &.view {
+              background-color: #007bff;
+              color: white;
+              
+              &:hover {
+                background-color: #0069d9;
+              }
+            }
+            
+            &.fill {
+              background-color: #6c757d;
+              color: white;
+              
+              &:hover {
+                background-color: #5a6268;
+              }
+            }
+            
+            &.edit {
+              background-color: #ffc107;
+              color: #212529;
+              
+              &:hover {
+                background-color: #e0a800;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  p {
+    font-style: italic;
+    color: #777;
+  }
+}
